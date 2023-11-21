@@ -80,7 +80,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/akkhayar/akkhayar',
+            href: 'https://github.com/akkhayar/akkhayar.com',
             label: 'GitHub',
             position: 'right',
           },
