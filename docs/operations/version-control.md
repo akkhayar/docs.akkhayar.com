@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Version Control
 
-GitHub ရဲ့ feature တွေအနက် အက္ခရာမှာ အရေးပါတဲ့ ခေါင်းစဉ် ၅ခုရှိပါသည်။
+GitHub ရဲ့ feature တွေအနက် အက္ခရာ၌ အရေးပါသော ခေါင်းစဉ် ၅ခုရှိပါသည်။
 
 1. Repository
 2. Branch
