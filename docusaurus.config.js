@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -31,7 +31,23 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'mm'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+        path: 'en',
+      },
+      mm: {
+        label: 'မြန်မာဘာသာ',
+        direction: 'ltr',
+        htmlLang: 'mm-MM',
+        calendar: 'gregory',
+        path: 'mm',
+      },
+    },
   },
 
   presets: [
@@ -41,15 +57,13 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          path: 'docs',
+          breadcrumbs: true,
           editUrl:
             'https://github.com/akkhayar/akkhayar.com/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/akkhayar/akkhayar.com/tree/main/',
         },
@@ -78,12 +92,17 @@ const config = {
             position: 'left',
             label: 'Handbook',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/akkhayar/akkhayar.com',
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+
         ],
       },
       footer: {
