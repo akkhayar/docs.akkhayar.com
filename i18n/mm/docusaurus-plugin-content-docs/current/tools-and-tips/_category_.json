@@ -1,0 +1,8 @@
+{
+  "label": "Tools and Tips",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Useful information for a higher developer experience."
+  }
+}

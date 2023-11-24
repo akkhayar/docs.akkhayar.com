@@ -2,11 +2,11 @@
 sidebar_position: 2
 ---
 
-# Translate your site
+# Software Development Lifecycle
 
 Let's translate `docs/intro.md` to French.
 
-## Configure i18n
+## Ci/Cd 
 
 Modify `docusaurus.config.js` to add support for the `fr` locale:
 
