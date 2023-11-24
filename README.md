@@ -19,13 +19,8 @@ Server စလို့ရပါပြီ။
 pnpm start
 ```
 
-```
-> Note
-
-မြန်မာဘာသာဖြင့် ရေးသားထားသော website ကိုစမ်းလျှင် ပုံမှန်နည်းဖြင့် စလို့မရပါ။ အောက်ပါ command ကိုသုံး၍စပါ။
-
-pnpm run start --locale mm
-```
+> [!NOTE]
+> မြန်မာဘာသာ website ကိုစမ်းလျှင် ပုံမှန်နည်းဖြင့် စလို့မရပါ။ `pnpm run start --locale mm` ကိုသုံးပြီးစပါ။
 
 ### Content Writing
 
