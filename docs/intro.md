@@ -4,4 +4,4 @@ sidebar_position: 1
 
 # Introduction
 
-အက္ခရာအဖွဲ့၏ လက်ဆွဲစာအုပ်သည် အဖွဲ့အစည်း လုပ်ဆောင်ချက် ပုံစံနှင့် နည်းစနစ်များကို စုစည်းရေးသားထားသော အညွှန်းတစ်ခုဖြစ်သည်။ ပွင့်လင်းမြင်သာမှုရှိခြင်းဆိုသော တန်ဖိုးအား ထိန်းထားရန်၊ လက်စွဲစာအုပ်အား ကြည့်ရှု့သူ ကန့်သက်မှုမျိုးပြုလုပ်ထားခြင်းမရှိပါ။
+The Akkhayar Handbook is a collection of guidelines and best practices for the Akkhayar community. It is a living document that everyone in the community can contribute to. It is a work in progress and will be updated as we learn more about what works and what doesn't. It is publicly available with little viewing restrictions for the sake of transparency and accessibility.
