@@ -23,7 +23,7 @@ const config = {
   organizationName: 'Akkhayar', // Usually your GitHub org/user name.
   projectName: 'akkhayar', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -91,7 +91,7 @@ const config = {
             position: 'left',
             label: 'Handbook',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/akkhayar/akkhayar.com',
             label: 'GitHub',
@@ -119,10 +119,10 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/akkhayar',
