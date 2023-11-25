@@ -1,7 +1,6 @@
-# akkhayar.com
+# Documentation
 
-သည်ပရောဂျက်တွင် [`pnpm`](https://pnpm.io/) ကိုအသုံးပြုထားသည်။ မရှိသေးလျှင် [သည်အညွှန်း](https://pnpm.io/installation) ကိုဖတ်ပြီးထည့်သွင်းပါ။
- `npm` သို့ `yarn` သုံးလို့မရပါ။
+[Docusaurus 2](https://docusaurus.io/) ဖြင့်ပြုလုပ်ထားသည်။
 
 ## Quickstart
 
@@ -14,7 +13,7 @@ pnpm i
 Server စလို့ရပါပြီ။
 
 ```bash
-pnpm run dev
+pnpm start
 ```
 
 ```

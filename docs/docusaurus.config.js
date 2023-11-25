@@ -11,7 +11,7 @@ const config = {
   title: 'Akkhayar',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
-
+  
   // Set the production url of your site here
   url: 'https://akkhayar.com',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -57,8 +57,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          path: 'docs',
-          breadcrumbs: true,
+          routeBasePath: '/',
           editUrl:
             'https://github.com/akkhayar/akkhayar.com/tree/main/',
         },
