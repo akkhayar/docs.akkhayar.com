@@ -8,12 +8,12 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Akkhayar',
-  tagline: 'Dinosaurs are cool',
+  title: 'အက္ခရာ | akkhayar',
+  tagline: 'A leap forward.',
   favicon: 'img/favicon.ico',
   
   // Set the production url of your site here
-  url: 'https://akkhayar.com',
+  url: 'https://docs.akkhayar.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -59,12 +59,12 @@ const config = {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
           editUrl:
-            'https://github.com/akkhayar/akkhayar.com/tree/main/',
+            'https://github.com/akkhayar/docs.akkhayar.com/tree/main/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/akkhayar/akkhayar.com/tree/main/',
+            'https://github.com/akkhayar/docs.akkhayar.com/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -79,21 +79,32 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Akkhayar',
+        title: 'အက္ခရာ | akkhayar',
         logo: {
           alt: 'Akkhayar Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
+            to: '/about',
+            position: 'right',
+            label: 'About',
+          },
+          {
+            to: '/',
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Handbook',
+            position: 'right',
+            label: 'Docs',
+          },
+          {
+            to: '/about',
+            position: 'right',
+            label: 'Operations',
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/akkhayar/akkhayar.com',
+            href: 'https://github.com/akkhayar/docs.akkhayar.com',
             label: 'GitHub',
             position: 'right',
           },
