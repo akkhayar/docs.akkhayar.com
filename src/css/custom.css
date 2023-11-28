@@ -3,18 +3,26 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Darker+Grotesque&display=swap');
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #cc182b;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #BE0000;
+  --ifm-color-primary-dark: #ab0000;
+  --ifm-color-primary-darker: #a20000;
+  --ifm-color-primary-darkest: #850000;
+  --ifm-color-primary-light: #d10000;
+  --ifm-color-primary-lighter: #db0000;
+  --ifm-color-primary-lightest: #f70000;
+  --ifm-background-color: #f8f8f8;
+  --ifm-color-secondary: rgba(0, 0, 0, 0.8);
+  --ifm-menu-color: rgba(0, 0, 0, 0.8);
+  --ifm-navbar-background-color: var(--ifm-background-color);
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-font-family-base: 'DM Sans', serif;
+  --ifm-heading-font-family: 'Darker Grotesque', sans-serif;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -26,5 +34,45 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-secondary: rgba(255, 255, 255, 0.8);
+  --ifm-footer-title-color: rgba(255, 255, 255, 0.9);
+  --ifm-menu-color: rgba(255, 255, 255, 0.8);
+  --ifm-background-color: #090909 !important;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+[data-theme='light'] .footer__title {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+
+.footer {
+  background-color: var(--ifm-background-color) !important;
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+.theme-doc-sidebar-container {
+  border-right: none !important;
+}
+
+.menu {
+  padding-top: 4.6em !important;
+}
+
+.menu__link {
+  padding-left: 3em;
+}
+
+.menu__link.menu__link--sublist {
+  font-weight: bold;
+}
+
+.menu__link.menu__link--active:not(.menu__link--sublist)::before {
+  content: '\2022';
+  /* Unicode character for a bullet point (you can change this to a different character) */
+  color: var(--ifm-color-active);
+  /* Change the color as needed */
+  margin-right: 0.5em;
+  /* Add some space between the circle and the content */
 }
