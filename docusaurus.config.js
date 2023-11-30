@@ -85,23 +85,23 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            to: '/about',
-            position: 'right',
-            label: 'About',
-          },
-          {
-            to: '/',
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'right',
-            label: 'Docs',
-          },
-          {
-            to: '/about',
-            position: 'right',
-            label: 'Operations',
-          },
+          // {
+          //   to: '/about',
+          //   position: 'right',
+          //   label: 'About',
+          // },
+          // {
+          //   to: '/',
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'right',
+          //   label: 'Docs',
+          // },
+          // {
+          //   to: '/about',
+          //   position: 'right',
+          //   label: 'Operations',
+          // },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/akkhayar/docs.akkhayar.com',
