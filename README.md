@@ -1,4 +1,4 @@
-# Documentation
+# Akkhayar Documentation
 
 [Docusaurus 2](https://docusaurus.io/) ဖြင့်ပြုလုပ်ထားသည်။
 
