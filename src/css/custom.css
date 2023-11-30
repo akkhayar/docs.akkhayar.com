@@ -20,7 +20,6 @@
   --ifm-navbar-background-color: var(--ifm-background-color);
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-
   --ifm-font-family-base: 'DM Sans', serif;
   --ifm-heading-font-family: 'Darker Grotesque', sans-serif;
 }
@@ -56,10 +55,6 @@
   border-right: none !important;
 }
 
-.menu {
-  padding-top: 4.6em !important;
-}
-
 .menu__link {
   padding-left: 3em;
 }
@@ -68,11 +63,10 @@
   font-weight: bold;
 }
 
+.menu__link--sublist.menu__link--active {
+  color: var(--ifm-color-foreground);
+}
+
 .menu__link.menu__link--active:not(.menu__link--sublist)::before {
-  content: '\2022';
-  /* Unicode character for a bullet point (you can change this to a different character) */
-  color: var(--ifm-color-active);
-  /* Change the color as needed */
-  margin-right: 0.5em;
-  /* Add some space between the circle and the content */
+  content: '';
 }
