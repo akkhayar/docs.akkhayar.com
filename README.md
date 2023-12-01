@@ -16,18 +16,16 @@ Server စလို့ရပါပြီ။
 pnpm start
 ```
 
-```
-> Note
-
-မြန်မာဘာသာဖြင့် ရေးသားထားသော website ကိုစမ်းလျှင် ပုံမှန်နည်းဖြင့် စလို့မရပါ။ အောက်ပါ command ကိုသုံး၍စပါ။
-
-pnpm run start --locale mm
-```
-
 ### Content Writing
 
 အကြောင်းအရာများကို မြန်မာဘာသာ နှင့် English ဘာသာနှစ်ခုဖြင့် ရေးသားရမည်။ English ဘာသာဖြင့်ရေးသားရန် [`/docs`](./docs) ကိုကြည့်ပါ။ မြန်မာဘာသာဖြင့်ရေးသားရန် [`website/i18n/mm/docusaurus-plugin-content-docs/current`](./website/i18n/mm/docusaurus-plugin-content-docs/current) ကိုကြည့်ပါ။
 
+> [!NOTE]
+>
+> မြန်မာဘာသာဖြင့် ရေးသားထားသော website ကိုစမ်းလျှင် ပုံမှန်နည်းဖြင့် စလို့မရပါ။ အောက်ပါ command ကိုသုံး၍စပါ။
+> ```
+> pnpm run start --locale mm
+> ```
 
 ## Customizing the website
 
