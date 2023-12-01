@@ -18,7 +18,7 @@ pnpm start
 
 ### Content Writing
 
-အကြောင်းအရာများကို မြန်မာဘာသာ နှင့် English ဘာသာနှစ်ခုဖြင့် ရေးသားရမည်။ English ဘာသာဖြင့်ရေးသားရန် [`/docs`](./docs) ကိုကြည့်ပါ။ မြန်မာဘာသာဖြင့်ရေးသားရန် [`website/i18n/mm/docusaurus-plugin-content-docs/current`](./website/i18n/mm/docusaurus-plugin-content-docs/current) ကိုကြည့်ပါ။
+အကြောင်းအရာများကို မြန်မာဘာသာ နှင့် English ဘာသာနှစ်ခုဖြင့် ရေးသားရမည်။ English ဘာသာဖြင့်ရေးသားရန် [`/docs`](./docs) ကိုကြည့်ပါ။ မြန်မာဘာသာဖြင့်ရေးသားရန် [`i18n/mm/docusaurus-plugin-content-docs/current`](./i18n/mm/docusaurus-plugin-content-docs/current) ကိုကြည့်ပါ။
 
 > [!NOTE]
 >
