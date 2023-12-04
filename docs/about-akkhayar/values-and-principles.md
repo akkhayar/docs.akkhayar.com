@@ -4,4 +4,10 @@ sidebar_position: 1
 
 # Values and Principles
 
-အက္ခရာတွင် ပွင့်လင်းမြင်သာမှု၊ လူမှုရေးဝန်ဆောင်မှုစိတ်ဓာတ်၊ အရည်အသွေးကိုတန်ဖိုးထားမှု ဟူသော အဓိကကျသော တန်ဖိုး ၃ ခုရှိသည်။
+There are three core values that governs the organization. They are the foundation of the community and are the guiding principles for all of our actions.
+
+1. Modernization
+2. Creativity
+3. Social Work
+
+
