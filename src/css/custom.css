@@ -56,11 +56,6 @@
   border-right: none !important;
 }
 
-/* 
-.menu__link {
-  margin-left: 3em;
-} */
-
 
 .menu__link:hover {
   background-color: initial;
@@ -87,7 +82,6 @@
   height: 0;
   width: 0;
   border-radius: 100%;
-  filter: blur(1px);
   background-color: red;
   transition-property: opacity, margin, height, width;
   transition-duration: 300ms;
