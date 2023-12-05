@@ -46,6 +46,11 @@
 }
 
 
+h1 {
+  letter-spacing: 0.1125rem;
+}
+
+
 .footer {
   background-color: var(--ifm-background-color) !important;
   border-top: 1px solid var(--ifm-toc-border-color);

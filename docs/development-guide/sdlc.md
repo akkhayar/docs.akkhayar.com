@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Software Development Lifecycle
+# Cadence
 
 Let's translate `docs/intro.md` to French.
 
@@ -14,3 +14,7 @@ The cadence of the development cycle is as follows:
 2. Development
 3. Testing
 4. Deployment
+
+
+### Sem
+
