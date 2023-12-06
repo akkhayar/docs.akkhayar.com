@@ -14,6 +14,7 @@
   --ifm-color-primary-light: #d10000;
   --ifm-color-primary-lighter: #db0000;
   --ifm-color-primary-lightest: #f70000;
+  --ifm-link-background: rgba(190, 0, 0, 0.05);
   --ifm-background-color: #f8f8f8;
   --ifm-color-secondary: rgba(0, 0, 0, 0.8);
   --ifm-menu-color: rgba(0, 0, 0, 0.8);
@@ -27,12 +28,7 @@
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #cb1829;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-link-background: rgba(203, 24, 41, 0.05);
   --ifm-color-secondary: rgba(255, 255, 255, 0.8);
   --ifm-footer-title-color: rgba(255, 255, 255, 0.9);
   --ifm-menu-color: rgba(255, 255, 255, 0.8);
@@ -87,9 +83,9 @@ h1 {
   height: 0;
   width: 0;
   border-radius: 100%;
-  background-color: red;
+  background-color: var(--ifm-color-primary-light);
   transition-property: opacity, margin, height, width;
-  transition-duration: 300ms;
+  transition-duration: 200ms;
   transition-timing-function: ease-in-out;
   opacity: 0;
 }
@@ -105,4 +101,16 @@ h1 {
   margin-right: 10px;
   height: 10px;
   width: 10px;
+}
+
+article a {
+  background-color: var(--ifm-link-background);
+}
+
+footer a {
+  background-color: var(--ifm-link-background);
+}
+
+h3 a {
+  background-color: transparent;
 }
