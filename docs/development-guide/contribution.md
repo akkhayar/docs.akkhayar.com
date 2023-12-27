@@ -4,18 +4,19 @@ sidebar_position: 1
 
 # Contribution
 
-In akkhayar, we encourage anyone to contribe to our open sourced projects. This is a ready-made guidelines on the process and priciples involved with contribution that we would like you to follow.
+This is a guidelines on the process and priciples involved with contribution to follow.
 
 ## Trunk Based Development
 
-The trunk based development model is used in akkhayar to manage continuous integration. This is a way we handle each and every developer's code that comes into the project; how it is merged, reviewed and finally shipped. On top of that, we also use GitHub issues to track miscellanous details.
+The trunk based development model is used in akkhayar to manage continuous integration. This is the way we handle all the developers' code that come into the project; how it is merged, reviewed and finally shipped. On top of trunk based development, we also use GitHub issues to track miscellanous details.
 
 ### ![git-branch](/img/git-branch-light.svg) Short Lived Feature Branches (feature/name)
 
 Before you do anything, break down your work into something doable in a short lived feature branch. A short lived feature branch must have a short life and it is destined to come back as pull requests into the main/trunk, merged and deleted after a few days.
 
 > One key rule is the length of life of the branch before it gets merged and deleted. Simply put, the branch should only last a couple of days. Any longer than two days, and there is a risk of the branch becoming a long-lived feature branch (the antithesis of trunk-based development). 
-> - [trunkbaseddevelopment.com](https://trunkbaseddevelopment.com/short-lived-feature-branches/#:~:text=One%20key%20rule%20is%20the%20length%20of%20life%20of%20the%20branch%20before%20it%20gets%20merged%20and%20deleted.%20Simply%20put%2C%20the%20branch%20should%20only%20last%20a%20couple%20of%20days.%20Any%20longer%20than%20two%20days%2C%20and%20there%20is%20a%20risk%20of%20the%20branch%20becoming%20a%20long%2Dlived%20feature%20branch%20(the%20antithesis%20of%20trunk%2Dbased%20development).)
+>
+> — [trunkbaseddevelopment.com](https://trunkbaseddevelopment.com/short-lived-feature-branches/#:~:text=One%20key%20rule%20is%20the%20length%20of%20life%20of%20the%20branch%20before%20it%20gets%20merged%20and%20deleted.%20Simply%20put%2C%20the%20branch%20should%20only%20last%20a%20couple%20of%20days.%20Any%20longer%20than%20two%20days%2C%20and%20there%20is%20a%20risk%20of%20the%20branch%20becoming%20a%20long%2Dlived%20feature%20branch%20(the%20antithesis%20of%20trunk%2Dbased%20development).)
 
 ### General Guidelines
 
