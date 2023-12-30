@@ -15,7 +15,7 @@
   --ifm-color-primary-lighter: #db0000;
   --ifm-color-primary-lightest: #f70000;
   --ifm-link-background: rgba(190, 0, 0, 0.05);
-  --ifm-background-color: #f8f8f8;
+  --ifm-background-color: #ffffff;
   --ifm-color-secondary: rgba(0, 0, 0, 0.8);
   --ifm-menu-color: rgba(0, 0, 0, 0.8);
   --ifm-navbar-background-color: var(--ifm-background-color);
@@ -43,18 +43,13 @@
 
 
 h1 {
-  letter-spacing: 0.1125rem;
+  letter-spacing: 2%;
 }
 
 
 .footer {
   background-color: var(--ifm-background-color) !important;
   border-top: 1px solid var(--ifm-toc-border-color);
-}
-
-
-.theme-doc-sidebar-container {
-  border-right: none !important;
 }
 
 
@@ -111,6 +106,28 @@ footer a {
   background-color: var(--ifm-link-background);
 }
 
-h3 a {
+article a.table-of-contents__link,h3 a,.hash-link,.breadcrumbs__link {
   background-color: transparent;
+}
+
+.apply-now {
+  background-color: var(--ifm-link-color);
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-pagination-nav-border-radius);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  align-items: center;
+}
+
+.apply-now img {
+  margin: auto;
+}
+
+.apply-now:hover {
+  box-shadow: 2px 5px 0 0 var(--ifm-color-content);
+  transform: translateY(-4px) translateX(-2px);
 }
