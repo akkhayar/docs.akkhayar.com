@@ -85,6 +85,7 @@ const config = {
       },
       navbar: {
         title: 'akkhayar',
+        hideOnScroll: true,
         logo: {
           alt: 'Akkhayar Logo',
           src: 'img/logo-light.svg',
