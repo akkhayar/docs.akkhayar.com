@@ -12,7 +12,7 @@ See our code of conduct [here](/community/code-of-conduct) adapted from the Cont
 
 ## Get Involved
 
-If you interested to get started, follow the application guide to join the organization. Once you are accepted you will become an internal contributor, hooray! you will very likely be accepted if you meet these [core criteria](/how-to-join#criteria). Internal contributors have access to work through branches on their associated project repositories.
+If you are interested to get started, follow the application guide to join the organization. Once you are accepted you will become an internal contributor, hooray! you will very likely be accepted if you meet these [core criteria](/how-to-join#criteria). Internal contributors have access to work through branches on their associated project repositories.
 
 :::note
 
@@ -30,7 +30,7 @@ There are a few ways to contribute to Akkhayar's projects, Heres are some ideas 
 
 ## Development
 
-Here are some guidelines to follow when developing for Akkhayar's projects before we take a look at the full workflwo. These guidelines are not set in stone, but they are a good starting point.
+Here are some guidelines to follow when developing for Akkhayar's projects before we take a look at the full workflow. These guidelines are not set in stone, but they are a good starting point.
 
 ### Issue Tracking
 
@@ -50,11 +50,11 @@ Now that you have a general idea of how the development process works, let's tak
 
 2. **Create a branch inside the issue.**
 
-   Click on the `Create branch` button in the issue page under "Development" section of the sidebar from the right. The branch name must be in the format of `feature/<feature>`, e.g., `feature/add-navbar`. This is your isolated development environment where you can implement new features, fix bugs, do anything you need to do to complete the issue. See how this joins to certain [ides](./editors-and-ides).
+   Click on the `Create branch` button in the issue page under "Development" section of the sidebar from the right. The branch name must be in the format of `feature/<feature>`, e.g., `feature/add-navbar`. This is your isolated development environment where you can implement new features, fix bugs, do anything you need to do to complete the issue. See how this workflow connects with certain [ides](./editors-and-ides).
 
 3. **Create a pull request**
 
-   Send a pull request into the `main` branch. The pull request should be named in the format of `review feature/<feature>`, e.g., `review feature/add-navbar`.
+   Send a pull request into the `main` branch. The pull request should be named in the format of `review: feature/<feature>`, e.g., `review: feature/add-navbar`.
 
 4. **Reiterate on the pull request until it is approved and merged into `main`.**
 5. **Close the issue & branch.**
@@ -97,7 +97,7 @@ Here are five core ideas in GitHub that we need to understand:
 5. Git Ignore
 
 There are a lot of YouTube crash courses for GitHub in Burmese, and even more in English.
-I will link a playlist that I find useful here: https://www.youtube.com/watch?v=DB_MEZZdiIs&list=PLD_eiqVVLZDge73nM5J-LyPgbfVL6vnDc
+Here is a useful playlist: https://www.youtube.com/watch?v=DB_MEZZdiIs&list=PLD_eiqVVLZDge73nM5J-LyPgbfVL6vnDc
 
 ## Commit Messages
 
@@ -112,7 +112,7 @@ When writing commit messages, it should always be sturctured as follows:
 ```
 
 This is in adherence to the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
-The commit message contains the following structural elements, to communicate intent to the consumers of your library:
+The commit message contains the following structural elements, to communicate intent to other contributors:
 
 | Element     | Description                                           |
 | ----------- | ----------------------------------------------------- |
@@ -137,4 +137,4 @@ The commit message contains the following structural elements, to communicate in
 
 # Conclusion
 
-Help us by following these guidelines when contributing to Akkhayar's projects. If you have any questions, feel free to open an issue or contact us on discord (link in the footer).
+Help us by following these guidelines when contributing to Akkhayar's projects. If you have any questions, feel free to open an issue or contact us on [discord](`${https://discord.gg/pPuFFNskcg}`).
