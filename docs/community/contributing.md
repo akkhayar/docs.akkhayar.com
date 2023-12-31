@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Contributing
 
-Akkhayar is an organization facilitating open sourced collaboration to hopefully build a sustainable community of developers in Myanmar. Under the organization is a collection of projects that are open sourced and maintained by the community. If you are interested in joining us, this document serves as a guide on how to contribute to its projects.
+Akkhayar is an organization spearheading open-sourced projects in hopes of building a sustainable community of OSS developers in Myanmar. The organization hosts a collection of projects that are maintained by internal contributors. If you are interested in joining us, this document serves as a guide on how to contribute to its projects.
 
 ## Code of Conduct
 
@@ -12,17 +12,17 @@ See our code of conduct [here](/community/code-of-conduct) adapted from the Cont
 
 ## Get Involved
 
-If you are interested to get started, follow the application guide to join the organization. Once you are accepted you will become an internal contributor, hooray! you will very likely be accepted if you meet these [core criteria](/how-to-join#criteria). Internal contributors have access to work through branches on their associated project repositories.
+If you are interested in getting started, follow the [application guide](/join-us) to join the organization. You will most likely be accepted, given you meet these [core criteria](/join-us#criteria). Once you are accepted you will become an internal contributor. Internal contributors have access to work through branches on their associated project repository.
 
 :::note
 
-Currently, **we do not** accept pull requests from external contributors (forks). You must be an internal contributor before you can contribute to the projects. But, feel free to open issues and discussions on the project repositories.
+Currently, **we do not** accept pull requests from external contributors (forks). You must be an internal contributor before you can contribute to the projects. But, feel free to open issues and discussions on the project repository.
 
 :::
 
 ### Features & Bugs
 
-There are a few ways to contribute to Akkhayar's projects, Heres are some ideas to get started:
+There are a few ways to contribute to Akkhayar's projects. Here are some ideas to get started:
 
 1. Use the application. Does everything work as expected? Can you reckon an improvement? Opening an issue to delegate or work on it.
 2. Go through the open issues. If you find an issue you would like to fix, open a pull request.
@@ -30,7 +30,7 @@ There are a few ways to contribute to Akkhayar's projects, Heres are some ideas 
 
 ## Development
 
-Here are some guidelines to follow when developing for Akkhayar's projects before we take a look at the full workflow. These guidelines are not set in stone, but they are a good starting point.
+Here are some guidelines to follow when developing Akkhayar's projects before we take a look at the full workflow. These guidelines are not set in stone, but they are a good starting point.
 
 ### Issue Tracking
 
@@ -38,7 +38,7 @@ Issues are used to track the progress of features, bugs, and other tasks. They a
 
 ### Branching
 
-Branches are used to isolate development environments for features, bugs, and every other changes that can be made. They are ultimately merged back into the main branch. Branches are named in the format of `feature/<feature>`, e.g., `feature/add-navbar`. Ensure that the feature branch is short lived and is merged back into the main branch within **a week**. See [trunk based development](#trunk-based-development) for more details.
+Branches are used to isolate development environments for features, bugs, and every other change that can be made. They are ultimately merged back into the main branch. Branches are named in the format of `feature/<feature>`, e.g., `feature/add-navbar`. Ensure that the feature branch is short-lived and is merged back into the main branch within **a week**. See [trunk-based development](#trunk-based-development) for more details.
 
 ### Workflow
 
@@ -50,13 +50,13 @@ Now that you have a general idea of how the development process works, let's tak
 
 2. **Create a branch inside the issue.**
 
-   Click on the `Create branch` button in the issue page under "Development" section of the sidebar from the right. The branch name must be in the format of `feature/<feature>`, e.g., `feature/add-navbar`. This is your isolated development environment where you can implement new features, fix bugs, do anything you need to do to complete the issue. See how this workflow connects with certain [ides](./editors-and-ides).
+   Click on the `Create branch` button on the issue page under the "Development" section of the sidebar from the right. The branch name must be in the format of `feature/<feature>`, e.g., `feature/add-navbar`. This is your isolated development environment where you can implement new features, fix bugs, and do anything you need to do to complete the issue. See how this workflow connects with certain [ides](./editors-and-ides).
 
 3. **Create a pull request**
 
-   Send a pull request into the `main` branch. The pull request should be named in the format of `review: feature/<feature>`, e.g., `review: feature/add-navbar`.
+   Send a pull request to the `main` branch. The pull request should be named in the format of `review: feature/<feature>`, e.g., `review: feature/add-navbar`.
 
-4. **Reiterate on the pull request until it is approved and merged into `main`.**
+4. **Reiterate the pull request until it is approved and merged into `main`.**
 5. **Close the issue & branch.**
 6. **Celebrate 🎉!**
 
@@ -70,7 +70,7 @@ That concludes the development workflow. The next section will go into more deta
 
 ## Trunk Based Development
 
-The trunk based development model is used in akkhayar. It is the way we propose a feature/bug, implement the proposal, and combine back into the project. 
+The trunk-based development model is used in akkhayar. It is the way we propose a feature/bug, implement the proposal, and combine it back into the project. 
 
 ### ![](/img/git-branch-light.svg) Short Lived Feature Branches
 
@@ -78,15 +78,15 @@ The trunk based development model is used in akkhayar. It is the way we propose 
 >
 > — [trunkbaseddevelopment.com](<https://trunkbaseddevelopment.com/short-lived-feature-branches/#:~:text=One%20key%20rule%20is%20the%20length%20of%20life%20of%20the%20branch%20before%20it%20gets%20merged%20and%20deleted.%20Simply%20put%2C%20the%20branch%20should%20only%20last%20a%20couple%20of%20days.%20Any%20longer%20than%20two%20days%2C%20and%20there%20is%20a%20risk%20of%20the%20branch%20becoming%20a%20long%2Dlived%20feature%20branch%20(the%20antithesis%20of%20trunk%2Dbased%20development).>)
 
-A short lived feature branch must have a short life and it is destined to come back as pull requests into the main/trunk, merged and deleted after a few days. **You are expected to send a pull request within seven days after that**, so we can still delegate the issue to someone else if you are unavailable.
+A short-lived feature branch must have a short life and it is destined to come back as pull requests into the main/trunk, merged and deleted after a few days. **You are expected to send a pull request within seven days after that**, so we can still delegate the issue to someone else if you are unavailable.
 
 ## Reviews
 
-Pull requests are reviewed by at least 1 code owner after successful checks. If you have failing checks on your pull requests, just iterate on the changes until it passes. If you are unsure about issue, feel free to request an edit from a code owner. The review process ensure that the code is high quality and that the changes are well updated to the documentation.
+Pull requests are reviewed by at least 1 code owner after successful checks. If you have failing checks on your pull requests, just iterate on the changes until it passes. If you are unsure about the issue, feel free to request an edit from a code owner. The review process ensures that the code is high quality and that the changes are well-updated in the documentation.
 
 # Version Control
 
-We use git as a version control system in Akkhayar (GitHub).
+We use Git as a version control system in Akkhayar (GitHub).
 
 Here are five core ideas in GitHub that we need to understand:
 
@@ -101,9 +101,9 @@ Here is a useful playlist: https://www.youtube.com/watch?v=DB_MEZZdiIs&list=PLD_
 
 ## Commit Messages
 
-When writing commit messages, it should always be sturctured as follows:
+When writing commit messages, they should always be structured as follows:
 
-```py
+``` py
 <type>[optional scope]: <description>
 
 [optional body]
@@ -116,9 +116,9 @@ The commit message contains the following structural elements, to communicate in
 
 | Element     | Description                                           |
 | ----------- | ----------------------------------------------------- |
-| type        | what type of change this commit contains.             |
-| scope       | what part of the codebase this commit affects.        |
-| description | why the change is needed.                             |
+| type        | the type of change does this commit contain           |
+| scope       | the part of the codebase this commit affects (optional) |
+| description | ... |
 | body        | additional context and details about the change.      |
 | footer      | metadata about breaking changes and issue references. |
 
@@ -129,7 +129,7 @@ The commit message contains the following structural elements, to communicate in
 | fix      | a bug fix                                                                                              | fix: typo in code                 |
 | feat     | a new feature                                                                                          | feat: added navbar                |
 | docs     | documentation only changes                                                                             | docs: add new documentation       |
-| style    | changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) | style: remove trailing spaces     |
+| style    | changes that do not affect the meaning of the code (white space, formatting, missing semi-colons, etc) | style: remove trailing spaces     |
 | refactor | a code change that neither fixes a bug nor adds a feature                                              | refactor: remove redundant code   |
 | test     | adding missing tests or correcting existing tests                                                      | test: add unit test for component |
 | ci       | changes to our CI configuration files and scripts (example scopes: Docker, Github Runners)             | ci: update dockerfile             |

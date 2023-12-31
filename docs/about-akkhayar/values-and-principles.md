@@ -20,7 +20,7 @@ Modernity brings simplicity to solve complex problems, but creativity is the alg
 ## Social Work
 The founding principle of Akkhayar is to provide a platform for the next generation of developers to gain experience and to build their portfolio.
 
-Our open sourced model and transperancy enables us to achieve this goal:
+Our open-sourced model and transperancy enables us to achieve this goal:
 
-1. Since the software is open sourced, the community can contribute to the project and learn from it. 
+1. Since the software is open-sourced, the community can contribute to the project and learn from it. 
 2. Since the organization is transparent, the community can see how the organization is run and learn from it. 
