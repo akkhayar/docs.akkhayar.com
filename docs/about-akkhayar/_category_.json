@@ -2,7 +2,6 @@
   "label": "About Akkhayar",
   "position": 2,
   "link": {
-    "type": "generated-index",
-    "description": "The central principles of Akkhayar."
+    "type": "generated-index"
   }
 }

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Co-designing
 
 Here is the general skeletal structure of how a typical UX process would go here at akkhayar.
