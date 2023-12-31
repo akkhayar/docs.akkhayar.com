@@ -113,18 +113,23 @@ article a.table-of-contents__link,h3 a,.hash-link,.breadcrumbs__link {
 .apply-now {
   background-color: var(--ifm-link-color);
   color: white;
+  display: flex;
+  justify-content: center;
   font-weight: bold;
+  border: 0 !important;
   width: 100%;
   padding: 0.8rem 1.2rem;
   border: 1px solid var(--ifm-color-emphasis-300);
   border-radius: var(--ifm-pagination-nav-border-radius);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  text-align: center;
   align-items: center;
 }
 
 .apply-now img {
-  margin: auto;
+  padding-left: 0.3rem;
+  width: 1.1rem;
 }
 
 .apply-now:hover {
