@@ -135,4 +135,6 @@ article a.table-of-contents__link,h3 a,.hash-link,.breadcrumbs__link {
 .apply-now:hover {
   box-shadow: 2px 5px 0 0 var(--ifm-color-content);
   transform: translateY(-4px) translateX(-2px);
+  color: white;
+  text-decoration: none;
 }

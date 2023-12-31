@@ -30,7 +30,7 @@ Condensing the UX workflow into a two-week time frame requires prioritizing key 
 
 :::note
 
-(Communication with the backend team will take place here.)
+Communication with the backend team will take place here.
 
 :::
 

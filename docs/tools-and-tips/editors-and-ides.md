@@ -18,7 +18,7 @@ git checkout <`branch_name`>
 ### Visual Studio Code
 You can checkout to this feature branch on **Visual Studio Code** through icons provided by the git extension in the status bar.
 
-:::warn
+:::note
 
 You should still fetch the origin first. This can be done by clicking on the refresh icon on the status bar.
 
