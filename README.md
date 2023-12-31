@@ -1,10 +1,10 @@
-# Akkhayar Documentation
+## docs.akkhayar.com
 
-[Docusaurus 2](https://docusaurus.io/) ဖြင့်ပြုလုပ်ထားသည်။
+[Docusaurus 2](https://docusaurus.io/) ဖြင့်တည်ဆောက်ထားသည်။
 
 ## Quickstart
 
-Dependencies များကို ထည့်သွင်းပါ။
+pnpm ဖြင့် dependencies များကိုသွင်းပါ။
 
 ```bash
 pnpm i
@@ -22,11 +22,11 @@ pnpm start
 
 > [!NOTE]
 >
-> မြန်မာဘာသာဖြင့် ရေးသားထားသော website ကိုစမ်းလျှင် ပုံမှန်နည်းဖြင့် စလို့မရပါ။ အောက်ပါ command ကိုသုံး၍စပါ။
+> မြန်မာဘာသာဖြင့် ရေးသားထားသော အကြောင်းအရာများကို ကိုစမ်းလိုလျှင် ပုံမှန်နည်းဖြင့် စလို့မရပါ။ အောက်ပါ command အတိုင်းသာစပါ။
 > ```
 > pnpm run start --locale mm
 > ```
 
 ## Customizing the website
 
-Docusaurus ၏[သည်လမ်းညွှန်](https://docusaurus.io/docs/swizzling)ကိုအရင်ဖတ်ပါ။
+Docusaurus ၏[လမ်းညွှန်](https://docusaurus.io/docs/swizzling)ကိုဖတ်ပါ။
