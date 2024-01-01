@@ -12,7 +12,7 @@ At the personal level, there are three core values that govern the organization.
 
 ## Modernization
 
-Akkhayar is an agile organization that is constantly evolving. We are not afraid to try new things and we are not afraid to fail. We are not afraid to be different and we are not afraid to be ourselves. One of the central aims of Akkhayar is to modernize the software industry in Myanmar. We want to bring contemporary design principles, modern developmente practices, and new ways of creating software to the country.
+Akkhayar is an agile organization that is constantly evolving. We are not afraid to try new things and we are not afraid to fail. We are not afraid to be different and we are not afraid to be ourselves. One of the central aims of Akkhayar is to modernize the software industry in Myanmar. We want to bring contemporary design principles, modern development practices, and new ways of creating software to the country.
 
 ## Creativity
 
