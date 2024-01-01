@@ -90,9 +90,9 @@ Pull requests are reviewed by at least 1 code owner after successful checks. If 
 
 # Version Control
 
-We use Git as a version control system in Akkhayar (GitHub).
+We use Git as a version control system in Akkhayar
 
-Here are five core ideas in GitHub that we need to understand:
+Here are five core ideas in Git that we need to understand:
 
 1. Repository
 2. Branch
@@ -100,7 +100,7 @@ Here are five core ideas in GitHub that we need to understand:
 4. Push & Pull Request
 5. Git Ignore
 
-There are a lot of YouTube crash courses for GitHub in Burmese, and even more in English.
+There are a lot of YouTube crash courses for Git in Burmese, and even more in English.
 Here is a useful playlist: https://www.youtube.com/watch?v=DB_MEZZdiIs&list=PLD_eiqVVLZDge73nM5J-LyPgbfVL6vnDc
 
 ## Commit Messages
