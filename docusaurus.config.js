@@ -125,15 +125,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/pPuFFNskcg',
-              },
-            ],
-          },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discord.gg/pPuFFNskcg',
+          //     },
+          //   ],
+          // },
           {
             title: 'More',
             items: [

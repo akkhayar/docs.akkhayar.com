@@ -141,4 +141,4 @@ The commit message contains the following structural elements, to communicate in
 
 # Conclusion
 
-Help us by following these guidelines when contributing to Akkhayar's projects. If you have any questions, feel free to open an issue or contact us on [discord](`${https://discord.gg/pPuFFNskcg}`).
+Help us by following these guidelines when contributing to Akkhayar's projects. If you have any questions, feel free to open an issue or through discord.
