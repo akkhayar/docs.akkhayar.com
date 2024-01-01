@@ -17,5 +17,5 @@ Mass scale open-sourced collaboration is a new concept in Myanmar, and tremendou
 
 ### Helpful Links
 
-- [`🍻 Contributing`](/community/contributing)
+- [`🍻 Contributing`](/guidelines/contributing)
 - [`🫱 Join Us`](/join-us)
