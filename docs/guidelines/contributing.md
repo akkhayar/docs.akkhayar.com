@@ -70,7 +70,7 @@ That concludes the development workflow. The next section will go into more deta
 
 ## Trunk Based Development
 
-The trunk-based development model is used in akkhayar. It is the way we propose a feature/bug, implement the proposal, and combine it back into the project. 
+The trunk-based development model is used in akkhayar. It is the way we propose a feature/bug, implement the proposal, and combine it back into the project.
 
 ### ![](/img/git-branch-light.svg) Short Lived Feature Branches
 
@@ -79,6 +79,10 @@ The trunk-based development model is used in akkhayar. It is the way we propose 
 > — [trunkbaseddevelopment.com](<https://trunkbaseddevelopment.com/short-lived-feature-branches/#:~:text=One%20key%20rule%20is%20the%20length%20of%20life%20of%20the%20branch%20before%20it%20gets%20merged%20and%20deleted.%20Simply%20put%2C%20the%20branch%20should%20only%20last%20a%20couple%20of%20days.%20Any%20longer%20than%20two%20days%2C%20and%20there%20is%20a%20risk%20of%20the%20branch%20becoming%20a%20long%2Dlived%20feature%20branch%20(the%20antithesis%20of%20trunk%2Dbased%20development).>)
 
 A short-lived feature branch must have a short life and it is destined to come back as pull requests into the main/trunk, merged and deleted after a few days. **You are expected to send a pull request within seven days after that**, so we can still delegate the issue to someone else if you are unavailable.
+
+## Discussions
+
+Discussions related to a project is held in the `#| discussion` channel of the project's category. The project repository's discussion space is used as a bulletin board for laying out the project's roadmap, discussing new features, and other project-related topics. It is also used as a place to ask questions and get help from other contributors.
 
 ## Reviews
 
@@ -103,7 +107,7 @@ Here is a useful playlist: https://www.youtube.com/watch?v=DB_MEZZdiIs&list=PLD_
 
 When writing commit messages, they should always be structured as follows:
 
-``` py
+```py
 <type>[optional scope]: <description>
 
 [optional body]
@@ -114,13 +118,13 @@ When writing commit messages, they should always be structured as follows:
 This is in adherence to the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
 The commit message contains the following structural elements, to communicate intent to other contributors:
 
-| Element     | Description                                           |
-| ----------- | ----------------------------------------------------- |
-| type        | the type of change does this commit contain           |
+| Element     | Description                                             |
+| ----------- | ------------------------------------------------------- |
+| type        | the type of change does this commit contain             |
 | scope       | the part of the codebase this commit affects (optional) |
-| description | ... |
-| body        | additional context and details about the change.      |
-| footer      | metadata about breaking changes and issue references. |
+| description | ...                                                     |
+| body        | additional context and details about the change.        |
+| footer      | metadata about breaking changes and issue references.   |
 
 ### Types of commit content
 
