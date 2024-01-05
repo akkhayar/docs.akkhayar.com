@@ -12,7 +12,7 @@ See our code of conduct [here](/community/code-of-conduct) adapted from the Cont
 
 ## Get Involved
 
-If you are interested in getting started, follow the [application guide](/join-us) to join the organization. You will most likely be accepted, given you meet these [core criteria](/join-us#criteria). Once you are accepted you will become an internal contributor. Internal contributors have access to work through branches on their associated project repository.
+If you are interested in getting started, fill up the [recruitment form](/join-us) to join the organization. You will most likely be accepted, given you meet these [core criteria](/join-us#criteria). Once you are accepted you will become an internal contributor. Internal contributors have access to work through branches on their associated project repository.
 
 :::note
 
@@ -22,7 +22,15 @@ Currently, **we do not** accept pull requests from external contributors (forks)
 
 ### Features & Bugs
 
-There are a few ways to contribute to Akkhayar's projects. Here are some ideas to get started:
+There are a few ways to contribute to Akkhayar's projects. 
+
+:::note
+
+When designing the application, refer to the UI/UX document attached in the project readme. 
+
+:::
+
+Here are some ideas to get started:
 
 1. Use the application. Does everything work as expected? Can you reckon an improvement? Opening an issue to delegate or work on it.
 2. Go through the open issues. If you find an issue you would like to fix, open a pull request.
@@ -55,9 +63,10 @@ Now that you have a general idea of how the development process works, let's tak
 3. **Create a pull request**
 
    Send a pull request to the `main` branch. The pull request should be named in the format of `review: feature/<feature>`, e.g., `review: feature/add-navbar`.
-
-4. **Reiterate the pull request until it is approved and merged into `main`.**
-5. **Close the issue & branch.**
+4. **Verify that all status checks have passed.**
+   The pull request will be automatically checked by GitHub Actions. If the checks fail, iterate on the changes until it passes.
+4. **Once everything passes, request a reviewer to merge into `main`.**
+5. **When the PR is merged, close the issue & branch.**
 6. **Celebrate 🎉!**
 
 ### Workflow Diagram
