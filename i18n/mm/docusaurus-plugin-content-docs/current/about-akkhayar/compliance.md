@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Compliance
+# စံနှုန်းလိုက်နာခြင်း
 
 ## Semantic Version 2.0.0
 

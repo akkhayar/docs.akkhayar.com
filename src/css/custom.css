@@ -47,6 +47,10 @@ h1 {
 }
 
 
+h2 {
+  line-height: 1.7;
+}
+
 .footer {
   background-color: var(--ifm-background-color) !important;
   border-top: 1px solid var(--ifm-toc-border-color);

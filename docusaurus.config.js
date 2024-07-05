@@ -4,70 +4,68 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import { themes as prismThemes } from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'akkhayar',
-  tagline: 'A leap forward.',
-  favicon: 'img/favicon.ico',
+  title: "akkhayar",
+  tagline: "A leap forward.",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://docs.akkhayar.com',
+  url: "https://docs.akkhayar.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Akkhayar', // Usually your GitHub org/user name.
-  projectName: 'akkhayar', // Usually your repo name.
+  organizationName: "Akkhayar", // Usually your GitHub org/user name.
+  projectName: "akkhayar", // Usually your repo name.
 
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "ignore",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'mm'],
+    defaultLocale: "mm",
+    locales: ["en", "mm"],
     localeConfigs: {
       en: {
-        label: 'English',
-        direction: 'ltr',
-        htmlLang: 'en-US',
-        calendar: 'gregory',
-        path: 'en',
+        label: "English",
+        direction: "ltr",
+        htmlLang: "en-US",
+        calendar: "gregory",
+        path: "en",
       },
       mm: {
-        label: 'မြန်မာဘာသာ',
-        direction: 'ltr',
-        htmlLang: 'mm-MM',
-        calendar: 'gregory',
-        path: 'mm',
+        label: "မြန်မာဘာသာ",
+        direction: "ltr",
+        htmlLang: "mm-MM",
+        calendar: "gregory",
+        path: "mm",
       },
     },
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          routeBasePath: '/',
-          editUrl:
-            'https://github.com/akkhayar/docs.akkhayar.com/tree/main/',
+          sidebarPath: "./sidebars.js",
+          routeBasePath: "/",
+          editUrl: "https://github.com/akkhayar/docs.akkhayar.com/tree/main/",
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/akkhayar/docs.akkhayar.com/tree/main/',
+          editUrl: "https://github.com/akkhayar/docs.akkhayar.com/tree/main/",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -77,19 +75,19 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: "img/docusaurus-social-card.jpg",
       docs: {
         sidebar: {
           hideable: true,
         },
       },
       navbar: {
-        title: 'akkhayar',
+        title: "akkhayar",
         hideOnScroll: true,
         logo: {
-          alt: 'Akkhayar Logo',
-          src: 'img/logo-light.svg',
-          srcDark: 'img/logo-dark.svg',
+          alt: "Akkhayar Logo",
+          src: "img/logo-light.svg",
+          srcDark: "img/logo-dark.svg",
         },
         items: [
           // {
@@ -111,19 +109,18 @@ const config = {
           // },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/akkhayar/docs.akkhayar.com',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/akkhayar/docs.akkhayar.com",
+            label: "GitHub",
+            position: "right",
           },
           {
-            type: 'localeDropdown',
-            position: 'right',
+            type: "localeDropdown",
+            position: "right",
           },
-
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           // {
           //   title: 'Community',
@@ -135,15 +132,15 @@ const config = {
           //   ],
           // },
           {
-            title: 'More',
+            title: "More",
             items: [
               // {
               //   label: 'Blog',
               //   to: '/blog',
               // },
               {
-                label: 'GitHub',
-                href: 'https://github.com/akkhayar',
+                label: "GitHub",
+                href: "https://github.com/akkhayar",
               },
             ],
           },
@@ -153,6 +150,14 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: "UVWT415B0T",
+        // Public API key: it is safe to commit it
+        apiKey: "0750a4738a9cc811fdea66f925297386",
+        indexName: "akkhayar",
+        contextualSearch: true,
       },
     }),
 };

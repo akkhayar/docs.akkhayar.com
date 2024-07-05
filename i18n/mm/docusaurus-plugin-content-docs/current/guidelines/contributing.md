@@ -2,39 +2,33 @@
 sidebar_position: 1
 ---
 
-# Contributing
+# ပါဝင်ခြင်း
 
-The Akkhayar organization hosts a collection of projects that are maintained by internal contributors. If you are interested in joining us, this document serves as a guide on how to contribute to its projects.
+အက္ခရာ အဖွဲ့အစည်း‌အောက်တွင် ထိန်းသိမ်းထားသော ပရောဂျက်များရှိပါသည်။ အက္ခရာနှင့်ပူးပေါင်းရန် စိတ်ဝင်စားပါက၊ သည်စာမျက်မာသည်ပရောဂျက်များတွင် မည်ကဲ့သို့ပါဝင်ကူညီရမည်ကို လမ်းညွှန်ချက်တစ်ခုဖြစ်ပါသည်။
 
-## Code of Conduct
+## ကျင့်ဝတ်စည်းမျဥ်း
 
-See our code of conduct [here](/community/code-of-conduct) adapted from the Contributor Covenant.
+အက္ခရာ၏ကျင့်ဝတ်စည်းမျဥ်း သည်နိုင်ငံတကာ Contributor Covenant ကိုမှီဝဲရေးသားထားသည်။ [ဖတ်ရန်။](/community/code-of-conduct) 
 
-## Get Involved
+## ပါဝင်ပါရန်
 
-If you are interested in getting started, fill up the [recruitment form](/join-us) to join the organization. You will most likely be accepted, given you meet these [core criteria](/join-us#criteria). Once you are accepted you will become an internal contributor. Internal contributors have access to work through branches on their associated project repository.
-
-:::note
-
-Currently, **we do not** accept pull requests from external contributors (forks). You must be an internal contributor before you can contribute to the projects. But, feel free to open issues and discussions on the project repository.
-
-:::
-
-### Features & Bugs
-
-There are a few ways to contribute to Akkhayar's projects. 
+စတင်ရန် စိတ်ပါဝင်စားပါက အဖွဲ့အစည်းတွင်ပါဝင်ရန် [recruitment form](/join-us) ကိုဖြည့်ပါ။ ဤ[သတ်မှတ်ချက်](/join-us#criteria) ပြည့်မီပါက လက်ခံမည်ဖြစ်ပါသည်။ လက်ခံပြီးသည်နှင့် အတွင်းပံ့ပိုးသူ (internal contributor) တစ်ယောက်ဖြစ်လာမည်ဖြစ်သည်။ အတွင်းပံ့ပိုးသူများသည် ၎င်းတို့၏ဆက်စပ်ပရောဂျက်၏ branch များမှလုပ်ဆောင်နိုင်မည်ဖြစ်သည်။
 
 :::note
 
-When designing the application, refer to the UI/UX document attached in the project readme. 
+လောလောဆယ်တွင်၊ အက္ခရာသည် ပြင်ပပံ့ပိုးသူများ (forks) များထံမှ pull requests များကိုလက်မခံပါ။ ပရောဂျက်များကို မပံ့ပိုးမီ အတွင်းပံ့ပိုးသူဖြစ်ရပါမည်။ သို့သော် မည်သူမဆို ပရောဂျက်ပြဿနာများနှင့် ဆွေးနွေးမှုများကို လွပ်လပ်စွာပြောဆိုနိုင်သည်။
 
 :::
 
-Here are some ideas to get started:
+အက္ခရာ ၏ ပရောဂျက်များတွင် ပါဝင်ကူညီရန် နည်းလမ်းအချို့ရှိပါသည်။
 
-1. Use the application. Does everything work as expected? Can you reckon an improvement? Opening an issue to delegate or work on it.
-2. Go through the open issues. If you find an issue you would like to fix, open a pull request.
-3. Take a look at the features requested by others in the community or on the stores of the apps and consider opening a pull request if you see something you want to work on.
+စတင်ရန် စိတ်ကူးအချို့ ဖြစ်သည်:
+
+1. အပလီကေးရှင်းကို အသုံးပြုပါ။ အားလုံးမျှော်လင့်ထားသည့်အတိုင်း အလုပ်ဖြစ်ပါသလား။ တိုးတက်မှုရှိနိုင်ပါသလား။ တွေ့ရှိပါက pull request ဖွင့်ပါ။
+2. ဖွင်ထားပြီသော issue များကိုစစ်ဆေးပါ။ သင်ဖြေရှင်းလိုသည့် ပြဿနာတစ်ခုတွေ့ပါက pull request ကို ဖွင့်ပါ။
+3. အခြားသူများ သို့မဟုတ် အက်ပ်များတွင် တောင်းဆိုထားသည့် ်feature များကို ကြည့်ရှုပြီး သင်လုပ်ဆောင်လိုသည့်အရာတစ်ခုခုကို တွေ့ရှိပါက pull request ဖွင့်ပါ။
+
+ဤစာမျက်နှာ၏ နောက်ဆက်တွဲအညွှန်းသည် အင်္ဂလိပ် tools များနှင့်စက်ဆက်နေသောကြောင့် အင်္ဂလိပ်လိုသာရေးထားပါသည်။
 
 ## Development
 
